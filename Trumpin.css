@@ -1,0 +1,79 @@
+/* Trump */
+
+.wrapper {
+	position: relative;
+	height: 600px;
+	width: 400px;
+	top: 40px;
+	display: block;
+	margin: auto;
+	background-color: rgb(238, 142, 176);
+}
+
+.hair {
+	position: absolute;
+	height: 31%;
+	left: 17%;
+}
+
+.rightEye {
+	position: absolute;
+	height: 38%;
+	left: 55%;
+	top: 15%;
+	transform: rotate(11deg);
+}
+
+.leftEye {
+	position: absolute;
+	height: 17%;
+	left: 27%;
+	top: 16%;
+	transform: rotate(5deg);
+}
+
+.leftEar {
+	position: absolute;
+	height: 27%;
+	left: 19%;
+	top: 25%;
+	transform: rotate(5deg);
+}
+
+.nose {
+	position: absolute;
+	height: 26%;
+	left: 32%;
+	top: 13%;
+}
+
+.mouth {
+	position: absolute;
+	height: 19%;
+	left: 39%;
+	top: 32%;
+	transform: rotate(4deg);
+}
+
+.chin {
+	position: absolute;
+	height: 20%;
+	left: 29%;
+	top: 44%;
+	transform: rotate(15deg);
+}
+
+.rightHand {
+	position: absolute;
+	height: 20%;
+	left: 75%;
+	top: 52%;
+}
+
+.leftHand {
+	position: absolute;
+	height: 30%;
+	left: 8%;
+	top: 50%;
+	transform: rotate(-8deg);
+}
