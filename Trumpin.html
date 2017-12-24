@@ -5,50 +5,51 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="Trumpin.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet">
   <title>Trumpin</title>
   <style>
-  /* shake on hover */
+    /* shake on hover */
 
-  img:hover {
-  	animation: shake 0.5s;
-  	animation-iteration-count: infinite;
-  }
+    img:hover {
+      animation: shake 0.5s;
+      animation-iteration-count: infinite;
+    }
 
-  @keyframes shake {
-  	0% {
-  		transform: translate(1px, 1px) rotate(0deg);
-  	}
-  	10% {
-  		transform: translate(-1px, -2px) rotate(-1deg);
-  	}
-  	20% {
-  		transform: translate(-3px, 0px) rotate(1deg);
-  	}
-  	30% {
-  		transform: translate(3px, 2px) rotate(0deg);
-  	}
-  	40% {
-  		transform: translate(1px, -1px) rotate(1deg);
-  	}
-  	50% {
-  		transform: translate(-1px, 2px) rotate(-1deg);
-  	}
-  	60% {
-  		transform: translate(-3px, 1px) rotate(0deg);
-  	}
-  	70% {
-  		transform: translate(3px, 1px) rotate(-1deg);
-  	}
-  	80% {
-  		transform: translate(-1px, -1px) rotate(1deg);
-  	}
-  	90% {
-  		transform: translate(1px, 2px) rotate(0deg);
-  	}
-  	100% {
-  		transform: translate(1px, -2px) rotate(-1deg);
-  	}
-  }
+    @keyframes shake {
+      0% {
+        transform: translate(1px, 1px) rotate(0deg);
+      }
+      10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+      }
+      20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+      }
+      30% {
+        transform: translate(3px, 2px) rotate(0deg);
+      }
+      40% {
+        transform: translate(1px, -1px) rotate(1deg);
+      }
+      50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+      }
+      60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+      }
+      70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+      }
+      80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+      }
+      90% {
+        transform: translate(1px, 2px) rotate(0deg);
+      }
+      100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+      }
+    }
 
     .wrapper {
       height: 600px;
@@ -56,7 +57,8 @@
       margin: auto;
     }
 
-/* media query for mobile */
+    /* media query for mobile */
+
     @media only screen and (max-width: 320px) {
       .wrapper {
         height: 200px;
@@ -104,6 +106,7 @@
         height: 37px;
       }
     }
+
     }
   </style>
 </head>
@@ -121,6 +124,8 @@
     <img class="leftHand" src="./public/leftHand.png" alt="leftHand" onclick="document.getElementById('potatoes').play()">
     <img class="rightHand" src="./public/rightHand.png" alt="rightHand" onclick="document.getElementById('rich').play()">
   </div>
+  <h1>TRUMPIN</h1>
+  <h2>Click for Trumps</h2>
   </div>
   <!-- Trump quotes -->
   <audio id="pussy">

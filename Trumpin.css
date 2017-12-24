@@ -7,7 +7,6 @@
 	top: 40px;
 	display: block;
 	margin: auto;
-	background-color: rgb(238, 142, 176);
 }
 
 .hair {
@@ -76,4 +75,21 @@
 	left: 8%;
 	top: 50%;
 	transform: rotate(-8deg);
+}
+
+h1 {
+	font-family: "Cabin", sans-serif;
+	font-size: 5rem;
+	color: white;
+	margin-left: 53px;
+	margin-top: -398px;
+}
+
+h2 {
+	font-family: "Cabin", sans-serif;
+	font-size: 1.5rem;
+	color: white;
+	margin-left: 230.5px;
+	margin-top: -66px;
+	font-weight: 400;
 }
