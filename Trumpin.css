@@ -77,19 +77,48 @@
 	transform: rotate(-8deg);
 }
 
-h1 {
+#title {
 	font-family: "Cabin", sans-serif;
 	font-size: 5rem;
 	color: white;
-	margin-left: 53px;
-	margin-top: -398px;
 }
-
-h2 {
+#subtitle {
 	font-family: "Cabin", sans-serif;
 	font-size: 1.5rem;
 	color: white;
-	margin-left: 230.5px;
-	margin-top: -66px;
+}
+
+.title-bg {
+	height: 50px;
+	width: 90px;
+	position: absolute;
+	top: 160px;
+	left: 50px;
+}
+
+.subtitle-bg {
+	position: absolute;
+	height: 50px;
+	width: 190px;
+	position: absolute;
+	top: 122px;
+	left: 179px;
 	font-weight: 400;
+}
+
+.title-sm {
+	height: 50px;
+	width: 90px;
+	position: absolute;
+	top: 482px;
+	left: 42px;
+}
+
+.subtitle-sm {
+	position: absolute;
+	height: 50px;
+	width: 190px;
+	position: absolute;
+	top: 120px;
+	left: 174px;
 }

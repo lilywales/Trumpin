@@ -50,16 +50,42 @@
         transform: translate(1px, -2px) rotate(-1deg);
       }
     }
-
-    /* @media only screen and (max-width: 1010px) {
-      .title {
-      
+    /* mobile/tablet meedia query */
+     @media only screen and (max-width: 1020px) {
+      .title-bg {
+        display: none;
+      },
+      .title-bg {
+        display: none;
       }
-    } */
+    }
+    /* larger screen query */
+    @media only screen and (min-width: 1019px) {
+     .title-sm {
+       display: none;
+     },
+     .title-sm {
+       display: none;
+     }
+   }
   </style>
 </head>
 
 <body style="background-color: rgb(238, 142, 176)">
+  <!-- project title bg -->
+  <div class="title-bg">
+    <h1 id="title">TRUMPIN</h1>
+    <div class="subtitle-bg">
+      <h2 id="subtitle">Click for Trumps</h2>
+    </div>
+  </div>
+  <!-- project title small screen -->
+  <div class="title-sm">
+    <h1 id="title">TRUMPIN</h1>
+    <div class="subtitle-sm">
+      <h2 id="subtitle">Click for Trumps</h2>
+    </div>
+  </div>
   <!-- div containting Trump -->
   <div class="wrapper">
     <img class="hair" src="./public/hair.png" alt="hair" onclick="document.getElementById('money').play()">
@@ -72,10 +98,7 @@
     <img class="leftHand" src="./public/leftHand.png" alt="leftHand" onclick="document.getElementById('potatoes').play()">
     <img class="rightHand" src="./public/rightHand.png" alt="rightHand" onclick="document.getElementById('rich').play()">
   </div>
-  <div class="title">
-  <h1>TRUMPIN</h1>
-  <h2>Click for Trumps</h2>
-  </div>
+
   <!-- Trump quotes -->
   <audio id="pussy">
     <source src="./public/grab-em-by-the-pussy.wav">
@@ -105,4 +128,5 @@
     <source src="./public/rich.wav">
   </audio>
 </body>
+
 </html>
