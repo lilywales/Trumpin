@@ -51,62 +51,10 @@
       }
     }
 
-    .wrapper {
-      height: 600px;
-      display: block;
-      margin: auto;
-    }
-
-    /* media query for mobile */
-
-    @media only screen and (max-width: 320px) {
-      .wrapper {
-        height: 200px;
-        top: 12px;
-        left: -16px;
-        display: block;
-        margin: 0;
+    @media only screen and (max-width: 1010px) {
+      .title {
+        opacity: 0;
       }
-      .hair {
-        left: 71px;
-        height: 63px;
-      }
-      .leftEar {
-        left: 75px;
-        top: 53px;
-      }
-      .leftEye {
-        left: 85px;
-      }
-      .nose {
-        left: 92px;
-        top: 28px;
-      }
-      .rightEye {
-        left: 121px;
-        height: 82px;
-        top: 31px;
-      }
-      .mouth {
-        left: 103px;
-        top: 69px;
-      }
-      .chin {
-        left: 88px;
-        top: 91px;
-      }
-      .leftHand {
-        left: 81px;
-        top: 107px;
-        height: 37px;
-      }
-      .rightHand {
-        left: 140px;
-        top: 107px;
-        height: 37px;
-      }
-    }
-
     }
   </style>
 </head>
@@ -124,6 +72,7 @@
     <img class="leftHand" src="./public/leftHand.png" alt="leftHand" onclick="document.getElementById('potatoes').play()">
     <img class="rightHand" src="./public/rightHand.png" alt="rightHand" onclick="document.getElementById('rich').play()">
   </div>
+  <div class="title">
   <h1>TRUMPIN</h1>
   <h2>Click for Trumps</h2>
   </div>
@@ -156,5 +105,4 @@
     <source src="./public/rich.wav">
   </audio>
 </body>
-
 </html>
